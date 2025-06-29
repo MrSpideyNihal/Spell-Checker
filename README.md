@@ -79,7 +79,7 @@ Edit
 python
 from main import FastSpellChecker
 # Load dictionary
-with open("dictionary.txt", "r") as f:
+with open("ENG.txt", "r") as f:
     word_list = f.readlines()
 
 checker = FastSpellChecker(word_list)
